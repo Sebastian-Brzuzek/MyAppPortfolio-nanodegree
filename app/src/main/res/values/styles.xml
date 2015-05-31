@@ -1,0 +1,27 @@
+<resources>
+
+    <color name="custom_window_background">#dfeaf1</color>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/custom_window_background</item>
+    </style>
+
+    <color name="udacity_button_background">#F08C35</color>
+    <color name="udacity_button_text">#000</color>
+    <style name="PortfolioButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:background">@color/udacity_button_background</item>
+        <item name="android:textColor">@color/udacity_button_text</item>
+        <item name="android:paddingStart">12dip</item>
+        <item name="android:paddingEnd">12dip</item>
+        <item name="android:paddingTop">5dip</item>
+        <item name="android:paddingBottom">5dip</item>
+        <item name="android:layout_marginTop">5dip</item>
+        <item name="android:layout_marginBottom">5dip</item>
+    </style>
+    <style name="PortfolioCupstoneButton" parent="PortfolioButton">
+        <item name="android:background">#ff5722</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+</resources>
